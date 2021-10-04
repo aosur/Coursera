@@ -1,0 +1,52 @@
+/*Functional*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    width: 70%;
+    position: relative;
+    margin: 10vh auto;
+    border-spacing: 5px; 
+}
+
+tr, tbody{
+    display: block;
+}
+
+thead > tr{
+    width: 100%;
+}
+
+tbody {
+    height: 200px;
+    overflow: auto;
+}
+
+tr {
+    display: flex;
+} 
+
+td {
+    flex: 20%;
+}
+
+th:first-child {
+    flex: 48.8%;
+}
+
+th:last-child {
+    flex: 51.2%;
+}
+
+
+/*Style*/
+
+

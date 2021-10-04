@@ -1,0 +1,18 @@
+div.miClase > p{
+    background: #fff000;
+}
+
+/*a[href='https://elcomercio.pe']{
+    background: #bde4cd;
+}*/
+/*a[href^='https://elcomercio']{
+    background:rgb(188, 188, 228);
+}*/
+
+/* a[href$='.pe']{
+    background:rgb(12, 233, 104);
+} */
+
+a[href*='comer']{
+    background:rgb(99, 163, 206);
+}

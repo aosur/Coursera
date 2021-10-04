@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.navflex {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+}
+
+.navflex a{
+    margin: auto 5px;
+}
+
+@media screen and (min-width: 500px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .navflex {
+        flex-direction: column;
+        flex: 10%;
+        align-items: center;
+    }
+
+    main {
+        flex: 70%;
+        padding: 10px;
+    }
+}

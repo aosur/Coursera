@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <script src="js/myScript.js"></script>
+    <title>Modify the DOM</title>
+</head>
+
+<body>
+    <h1>Modify the DOM</h1>
+    <div>
+        <button onclick="writeOnSomeElement('p', 2, 'Cambiado por el primer botón')">first</button>
+        <button onclick="writeOnSomeElement('p', 2, 'Cambiado por el segundo botón')">second</button>
+    </div>
+    <p>This code shoudn't change.</p>
+    <p class="special">This will change.</p>
+    <p>This code shoudn't change either.</p>
+</body>
+
+</html>

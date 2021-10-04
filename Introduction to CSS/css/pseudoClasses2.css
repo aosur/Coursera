@@ -1,0 +1,15 @@
+div{
+    color:red;
+}
+
+p{
+    display: none;
+    background-color: yellow;
+    color: black;
+    padding: 25px;
+}
+
+div:hover p{
+    display: block;
+    
+}

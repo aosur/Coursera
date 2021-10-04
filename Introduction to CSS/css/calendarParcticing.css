@@ -1,0 +1,77 @@
+table.cal{/*Listo*/
+    color: #06425c;
+    border: 3px solid #000000;
+    border-radius: 0 0 25px 25px;
+    border-spacing: 0;
+}
+
+.cal caption{/*Listo*/
+    background: #666666;
+    color: #ffffff;
+    font-size: 200%;
+    text-transform: uppercase;
+    border-radius: 25px 25px 0 0;
+}
+
+.cal tr:nth-child(od){
+    background-color: #f2f2f2;
+}
+
+.cal tr:nth-child(even){
+    background-color: #cdbb79;
+}
+
+.cal tr:last-child{
+    border-radius: 0 0 25px 25px;
+}
+
+.cal tr:last-child > td:first-child{
+    border-radius: 0 0 0 25px;
+}
+
+.cal tr:last-child > td:last-child{
+    border-radius: 0 0 25px 0;
+}
+
+.cal td, .cal th{
+    margin: 2px;/*no hace nada*/
+    padding-bottom: 2px;
+    vertical-align: top;
+}
+
+.cal td{
+    width: 75px;
+    height: 75px;
+}
+
+.cal th{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.holiday{
+    margin: 0;
+    padding: 0;
+    background-color: #51a39d;
+}
+
+.old{
+    padding:0;
+	margin: 0;
+    background-color: #51a39d;
+    color:rgba(0,0,0,.25);
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
+    border-spacing: 0;
+}
+
+.cal span{
+    visibility: hidden;
+    display: block;
+    text-align: center;
+    color: #800000;
+}
+
+.cal td:hover > span{
+    visibility: visible;
+
+}

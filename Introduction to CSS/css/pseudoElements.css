@@ -1,0 +1,12 @@
+/*p::first-line{
+    color:red;
+}*/
+
+p:nth-child(3n-1)::first-line{
+    color:red;
+}
+
+p:nth-child(3n-1)::first-letter{
+    color:blue;
+    font-size: xx-large;
+}

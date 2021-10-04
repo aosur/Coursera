@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.logo{
+    width: 150px;
+    margin: auto 20px;
+}
+
+.logo-emp{
+    height: 40px;
+}
+
+.main-menu{
+    height: 20px;
+    margin: auto 20px auto auto;
+}
+
+.menu-option{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(95, 93, 93, 0.7);
+    font-weight: 700;
+    margin: auto 9px;
+}
+
+.menu-option:hover{
+    color: rgba(95, 93, 93, 1);
+}
+
+main{
+     margin: 0 auto;
+    width: 100%;
+
+}
+
+.zona-titular{
+    height: 600px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    background-color: rgb(52, 209, 162);
+    background-image: url('https:\\denetz.net/wp-content/uploads/2021/02/fondo-header-1280x961.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.zona-titular h1{
+    color: #ffffff;
+    font-size: 80px;
+    margin: 0;
+    padding: 220px 0 100px 0;
+}
+
+.zona-titular h5{
+    background-color: #ffffff;
+    width: 200px;
+    height: 25px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(24, 85, 109);
+}
+
+.zona-titular h5:hover{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sec-blog-tienda{
+    display: flex;
+    height: 200px;
+
+}
+
+.sec-blog-tienda div{
+    width: 100%;
+    height: 100%;
+}
+
+#blog-sec{
+    background-color: #29abe2;
+    cursor: pointer;
+}
+
+#tienda-sec{
+    background-color: #1b1464;
+    cursor: pointer;
+}
+
+.sec-blog-tienda h3{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin: 82px auto;
+}
+
+.sec-post{
+    display: flex;
+    height: 500px;
+}
+
+.sec-post div{
+    margin: auto auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec-post img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(120, 120, 120);
+    cursor: pointer;
+    opacity: .7;
+
+    transition-property: transform, box-shadow;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    transition-duration: .25s;
+}
+
+.sec-post img:hover{
+    transform: translate(0, -40px);
+    box-shadow: 10px 30px 8px rgb(120, 120, 120);
+    opacity: 1;
+}
+
+.sec-post h4{
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.sec-post p{
+    width: 300px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(0, 84, 140);
+}
+
+footer h2{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+footer section{
+    margin: auto;
+    margin-right: 20px;
+}
+
+footer img{
+    cursor: pointer;
+    width: 30px;
+    margin: auto 10px;
+}

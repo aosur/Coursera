@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table, tr, td, th {
+    border: 1px solid gray;
+}
+
+table {
+    position: relative;
+}
+
+thead, tbody, table {
+    width: 100%;
+}
+
+tbody, thead, tr {
+    display: block;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+}
+
+thead > tr {
+    margin-right: 18px;
+}
+
+td, th {
+    flex: 50%;
+}
+
+tbody {
+
+    height: 50px;
+    overflow: auto;
+
+}
+
+th, td {
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color:crimson;
+}
+
+a:hover{
+    color: green;
+    background-color: aliceblue;
+}
+
+a:active{
+    background-color: green;
+    color: aliceblue;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+div>p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div:hover{
+    background-color: yellowgreen;
+    color: white;
+}

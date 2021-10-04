@@ -1,0 +1,8 @@
+p{
+    text-align: center;
+    background-color: beige;
+}
+
+p.alto{
+    line-height: 50px;
+}

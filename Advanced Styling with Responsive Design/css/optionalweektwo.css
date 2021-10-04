@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(215, 219, 219);
+    color: rgb(0 0 0 / 0.9) ;
+}
+
+#center {
+    margin-bottom: 25px;
+}
+
+#center img{
+    display: none;
+}
+
+header {
+    background: rgb(30 70 140 / 100%) url('https://1000marcas.net/wp-content/uploads/2020/03/University-of-Michigan-Logo.png') no-repeat 0 -12px;
+    background-size: 80px;
+}
+
+h1 , footer {
+    text-align: center;
+} 
+
+h1 {
+    color: rgb(228, 205, 92);
+    font-size: 2.5;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    width: 155px;
+    background-color: rgb(8 42 101 / 1);
+    color: rgb(228, 224, 224);
+    margin: 18px auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+header a:hover {
+    color: rgb(248, 207, 3);
+    background-color: rgb(8 91 236 / 0.8);
+}
+
+section ol {
+    list-style-type: upper-roman;
+}
+
+.myClass {
+    display: flex;
+    align-items: center;
+    border: solid 1px rgb(0 0 0 / 0.9);
+}
+
+.myClass h3 {
+    flex: 200%;
+    padding-right: 35px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: rgb(30 70 140 / 100%);
+    color: rgb(228, 224, 224);
+}

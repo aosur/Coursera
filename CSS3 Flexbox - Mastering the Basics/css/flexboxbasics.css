@@ -1,0 +1,68 @@
+body {
+    background-color: lightgrey;
+}
+
+/* Flex Container Properties */
+.flex-container{
+    border : 6px solid black;
+    display: flex;
+    /* height: 600px; 
+    flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow: row nowrap; */
+     /* justify-content: flex-end;   */
+    /* align-items: flex-start; */
+    /* align-content: flex-end; */
+    height: 500px;
+}
+
+/* Common Flex Item Properties */
+.flex-item {
+    color: darkgreen;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+   flex-basis: 400px;
+   
+} 
+
+/* Indivisuals Flex Item Properties */
+.item-1 {
+    background-color: lightgreen;
+}
+.item-2 {
+    background-color: lightcoral; 
+    /* order: 1; */
+    /* flex-shrink: 10; */
+}
+.item-3 {
+    background-color: lightseagreen;   
+    align-self: flex-start;
+}
+.item-4 {
+    background-color: pink;  
+    align-self: center;
+}
+.item-5 {
+    background-color: skyblue;
+    /*align-self: flex-end;  */
+}
+.item-6 {
+    background-color: lightsalmon;
+    /* order: 2; */
+}
+.item-7 {
+    background-color: blue;
+   align-self: flex-end;
+}
+.item-8 {
+    background-color: lightgrey;
+   
+}
+.item-9 {
+    background-color: lightsteelblue;
+   
+}
+
+
+

@@ -1,0 +1,15 @@
+div.div1{
+    background: blue;
+    width: 200px;
+    height: 150px;
+    transform: skewX(0deg);
+    transition-property: transform;
+    transition-duration: 5s;
+    transition-delay: .5s;
+    transition-timing-function: linear;
+}
+
+
+div:hover{
+    transform: skewX(360deg);
+}

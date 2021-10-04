@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: yellow;
+    border: 1px solid black;
+    text-align: center;
+}
+
+body {
+    display: flex;
+}
+
+div :first-child {
+    flex: 100%;
+    display: block;
+}
+
+.column {
+    flex: 30%;
+    display: inline-block;
+}

@@ -1,0 +1,51 @@
+header{
+    background: #00B7EA;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+body{
+    background: #B3B3B3;
+    font-size: 150%;
+    margin: 4%;
+}
+
+section{
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 45px;
+}
+
+nav a{
+    font-variant: small-caps;
+    font-size: 35px;
+}
+
+h2{
+    background: #00B7EA;
+    color: #666666;
+    font-size: 30px;
+}
+
+footer{
+    background: #00B7EA;
+    clear: both;
+}
+
+details{
+    font-style: italic;
+}
+
+summary{
+    font-style: normal;
+}
+
+img{
+    width: 5%;
+}

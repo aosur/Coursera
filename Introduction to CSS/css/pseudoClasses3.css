@@ -1,0 +1,9 @@
+/*Todos los hijos i del primer parrafo*/
+p:nth-child(n) i:nth-child(2n){
+    color: blue ;
+}
+
+/*De todos los parrafos los i de posicion impar*/
+p:nth-child(n) i:nth-child(2n-1){
+    color: yellow;
+}
